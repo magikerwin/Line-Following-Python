@@ -5,7 +5,7 @@ This repository contains an **unofficial python implementation** of the *Line Th
 <!-- 
 [IMG: 放一個"Line Follwing書寫體"圖檔，有左至右慢慢被thinning到"o"字元]()
 -->
-<img src="./photo/lineFollowingOnFire2.png">
+<img src="./photo/lineFollowingOnFire.png">
 
 ## Original Paper
 
@@ -20,7 +20,7 @@ How would we, humans, perform line thinning? The most natural way is by followin
 -->
 
 ## How does it work
----
+
 * The line-follower is called to follow each encountered line.
 <!-- 
 [IMG: 多物件圖中，左上右下掃描，掃描到的物件整個變紅，然後結束&Repeat]()
@@ -51,11 +51,6 @@ How would we, humans, perform line thinning? The most natural way is by followin
       </tbody>
     </table>
 
-    * LP - a pointer to follow the left edge of a line.
-    * RP - a pointer to follow the right one.
-    * W - a rectangular window whose sides are parallel to the sides of the matrix.
-    * d - the distance of a point to a line is measured as usual by the length (in pixels) of the normal from the point to that line.
-    
     <div align="center">
     <div style="width: 60%; margin:0 left;text-align: left;">
       <img src="./photo/W_d1.png">
@@ -103,4 +98,4 @@ $ python thin.py --input ./data/no-branch.jpg -out output.jpg
 
 
 ## License
-This project is under the [MIT License](). See the LICENSE file for the full license text.
+This project is under the [MIT License](./LICENSE). See the LICENSE file for the full license text.
