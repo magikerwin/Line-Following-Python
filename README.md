@@ -77,7 +77,7 @@ How would we, humans, perform line thinning? The most natural way is by followin
 |-:|:-:|
 |single-branch<br>(d=1)|<img src="./photo/no-branch_d1.gif">|
 |two-branch<br>(d=1)|<img src="./photo/two-branch_d1.gif">|
-|multi-branch<br>(d=2)|<img src="./photo/multi-branch_d2.gif">|
+|multi-branch<br>(d=1)|<img src="./photo/multi-branch_d1.gif">|
 
 
 
